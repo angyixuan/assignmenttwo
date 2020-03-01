@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Raleway'; 
+    src: url('Raleway-Regular.ttf');
+    font-weight: normal; 
+    font-style: normal;                  
+  }
+  @font-face {
+    font-family: 'Raleway-Bold';
+    src: url('Raleway-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Raleway-ExtraBold';
+    src: url('Raleway-ExtraBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Raleway-Black';
+    src: url('Raleway-Black.ttf');
+    font-weight: normal; 
+    font-style: normal;
+  }
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    color: gray;
+    margin: 0em;
+}
+
+h1 {
+  font-family: 'Raleway-ExtraBold';
+  letter-spacing: 0.1em;
+  color: black;
+}
+
+h3 {
+  font-weight: 550;
+  color: black;
+  line-height: 90%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color:white; 
+    margin: 0em;
+    font-size: 1.4em;
+    font-family: 'Raleway-Bold';
+    position: sticky;
+    top: 0;
+  }
+  
+  .barry-logo {
+    display: block;
+    float: left;
+    clear: left;
+    width: 9em;
+    height: 1.8em;
+    padding: 0em 0em 0em 0.4em; 
+  }
+
+  .navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em 1em;
+  }
+
+  .navbar-logo:hover {
+    background-color: transparent; 
+  }
+  
+  .navbar a:hover {
+    background-color: transparent;
+    color: darkgrey;
+  }
+
+  .navbar a.active {
+    background-color: transparent; 
+    color: black;
+  }
+
+* {box-sizing:border-box}  
+
+.redroom{
+    display: block;
+    float: left;
+    clear: left;
+    column-gap: 2em;
+    width: 40%;
+    padding: 2em 0em 25em 4em;
+    line-height: 90%;
+    height: auto;
+  }
+  
+.redroomtwo {
+    display: block;
+    float: right;
+    clear: right;
+    width: 50%;
+    padding: 2em 2em 2em 0em;
+    height: auto;
+  }  
+  
+  
+
+.fuelbarimage {
+    float: left;
+    clear: left;
+    width: 25%;
+    height: 25%;
+    padding: 0em 0.8em 1em 0em;
+  }
+
+.fuelbardescription {
+    margin: 2em;
+    padding-top: 2em;
+  }
+
+.shopimage {
+    float: left;
+    clear: left;
+    width: 25%;
+    height: 25%;
+    padding: 0em 0.8em 1em 0em;
+  }
+
+.shopdescription {
+  margin: 2em;
+  padding-top: 2em;
+}
+
+.amenities {
+    display: block;
+    float: left;
+    clear: left;
+    column-gap: 2em;
+    width: 40%;
+    padding: 2em 0em 2em 4em;
+    line-height: 200%;
+    height: auto;
+}
+
+.amenitiestwo {
+  display: block;
+  float: right;
+  clear: right;
+  width: 50%;
+  padding: 2em 2em 2em 0em;
+  height: auto;
+}  
+  
+  

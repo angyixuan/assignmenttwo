@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Raleway'; 
+    src: url('Raleway-Regular.ttf');
+    font-weight: normal; 
+    font-style: normal;                  
+  }
+  @font-face {
+    font-family: 'Raleway-Bold';
+    src: url('Raleway-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Raleway-ExtraBold';
+    src: url('Raleway-ExtraBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Raleway-Black';
+    src: url('Raleway-Black.ttf');
+    font-weight: normal; 
+    font-style: normal;
+  }
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    color: gray;
+    margin: 0em;
+}
+
+h1 {
+  font-family: 'Raleway-ExtraBold';
+  letter-spacing: 0.1em;
+  color: black;
+}
+
+h3 {
+  font-weight: 550;
+  color: black;
+  line-height: 90%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color:white; 
+    margin: 0em;
+    font-size: 1.4em;
+    font-family: 'Raleway-Bold';
+    position: sticky;
+    top: 0;
+  }
+  
+  .barry-logo {
+    display: block;
+    float: left;
+    clear: left;
+    width: 9em;
+    height: 1.8em;
+    padding: 0em 0em 0em 0.4em; 
+  }
+
+  .navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em 1em;
+  }
+
+  .navbar-logo:hover {
+    background-color: transparent; 
+  }
+  
+  .navbar a:hover {
+    background-color: transparent;
+    color: darkgrey;
+  }
+
+  .navbar a.active {
+    background-color: transparent; 
+    color: black;
+  }
+
+* {box-sizing:border-box}  
+
+.register {
+    display: block;
+    float: left;
+    clear: left;
+    column-gap: 1em;
+    width: 60%;
+    padding: 4em 0em 2em 2em;
+    line-height: 210%;
+    height: auto;
+    font-size: 1.1em;
+}  
+    .registerimage {
+        width: 90%;
+        height: 100%;
+    }
+.registertwo {
+    display: block;
+    float: right;
+    clear: right;
+    width: 40%;
+    padding: 2.5em 2em 2em 0em;
+    height: auto;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
